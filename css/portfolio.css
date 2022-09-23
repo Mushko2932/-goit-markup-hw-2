@@ -1,0 +1,149 @@
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --secondary-bg-color: #2F303A;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+    --primary-font-family: Roboto, sans-serif;
+    --secondary-font-family: Raleway, cursive;
+    --primary-font-size: 14px;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+    font-family: var(--primary-font-family);
+    letter-spacing: 0.03em;
+}
+
+/* Шапка */
+
+.logo {
+    color: var(--secondary-text-color);
+
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* Навігація */
+
+.site-nav .link {
+    color: var(--secondary-text-color);
+
+    font-weight: 500;
+    font-size: var(--primary-font-size);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav .link {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: var(--primary-font-size);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.auth-nav .link:hover,
+.uth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Кнопки */
+
+button {
+    font-family: inherit;
+}
+
+.service-button {
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+.service-button:hover,
+.service-button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+/* Роботи */
+
+.title {
+    color: var(--secondary-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.text {
+    color: var(--primary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+/* Підвал */
+
+.logo-lower {
+    color: var(--primary-white-color);
+
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: var(--secondary-bg-color);
+}
+
+.adress {
+    font-style: normal;
+
+    font-weight: 400;
+    font-size: var(--primary-font-size);
+    line-height: 1.71;
+}
+
+.adress-list .link {
+    color: var(--primary-white-color);
+    text-decoration: none;
+}
+
+.contacts {
+    color: var(--footer-contacts-color);
+    text-decoration: none;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--accent-color);
+}
